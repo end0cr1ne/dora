@@ -6,10 +6,10 @@ $('#fullpage').fullpage({
   //Navigation
   menu: '#menu',
   lockAnchors: false,
-  anchors: ['header', 'research'],
+  anchors: ['header', 'research', 'updates'],
   navigation: true,
   navigationPosition: 'right',
-  navigationTooltips: ['Header', 'Research'],
+  navigationTooltips: ['Header', 'Research', 'Updates'],
   showActiveTooltip: false,
   slidesNavigation: true,
   slidesNavPosition: 'bottom',
