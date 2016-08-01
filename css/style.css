@@ -1,5 +1,16 @@
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .navbar-fixed {
   height: 0;
+}
+
+.hero {
+    position: absolute;
+    top: 15vh;
+    height: 80vh;
 }
 
 .applications li{
