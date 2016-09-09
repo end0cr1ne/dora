@@ -1,0 +1,239 @@
+<svg width="3072" height="3675" viewBox="0 0 3072 3675" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<g id="Canvas" transform="matrix(3 0 0 3 618 1092)" figma:type="canvas">
+<mask id="mask0_outline" mask-type="alpha">
+<path d="M -206 -364L 818 -364L 818 861L -206 861L -206 -364Z" fill="#FFFFFF"/>
+</mask>
+<g id="fRAME" style="mix-blend-mode:normal;" mask="url(#mask0_outline)" figma:type="frame">
+<g id="BE Comps" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(170.5 -56)" fill="#56CCF2" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Line 17" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path1_stroke" transform="matrix(0.00430879 -0.999991 1 8.70166e-31 -34.5 -218)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 18" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path2_stroke" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 -34.5 -364)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="BE Comps" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(170.5 246)" fill="#56CCF2" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="BE Comps" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(-150.5 31)" fill="#4CAFA9" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="BE Comps" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(170.5 95)" fill="#4CAFA9" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="BE Comps" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="translate(-150.5 400)" fill="#4CAF50" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="BE Comps" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="translate(-149.5 249)" fill="#4CAF50" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Line 14" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path4_stroke" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 40.5 551)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 5" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path5_stroke" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 867.5 707)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 2" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path6_stroke" transform="matrix(-0.211046 -0.977476 0.977476 -0.211046 158.5 118)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Lifts" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="translate(777.5 594)" fill="#DADADA" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="translate(777.5 644.26)" fill="#DADADA" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="T" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path8_fill" transform="translate(-132.5 639)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 5" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path9_fill" transform="translate(-206 707)" fill="#26A69A" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 12" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path10_stroke" transform="matrix(6.12323e-17 1 -1 6.12323e-17 -79.5 551)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 13" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path11_stroke" transform="matrix(6.12323e-17 1 -1 6.12323e-17 -79.5 634)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 8" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path12_stroke" transform="matrix(6.12323e-17 1 -1 6.12323e-17 217.5 707)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="BE Comps" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path13_fill" transform="translate(170.5 400)" fill="#4CAF50" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="BE Comps" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(170.5 400)" fill="#4CAF50" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="BE Elex" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path14_fill" transform="translate(605.5 707)" fill="#EB5757" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Stairs DOWN Mid" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path15_stroke" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -79.5 214)" fill="#000000" fill-opacity="0.5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path15_stroke" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -91.5 214)" fill="#000000" fill-opacity="0.6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path15_stroke" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -103.5 214)" fill="#000000" fill-opacity="0.7" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path15_stroke" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -115.5 214)" fill="#000000" fill-opacity="0.8" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path16_stroke" transform="matrix(0.0172327 -0.999852 1 2.17542e-31 -127.5 214)" fill="#000000" fill-opacity="0.9" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path17_stroke" transform="matrix(0.0344503 -0.999406 1 1.0877e-31 -139.5 214)" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Stairs UP Mid" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path15_stroke" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -79.5 246)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path16_stroke" transform="matrix(0.0172327 -0.999852 1 2.17542e-31 -127.5 246)" fill="#000000" fill-opacity="0.6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path17_stroke" transform="matrix(0.0344503 -0.999406 1 1.0877e-31 -139.5 246)" fill="#000000" fill-opacity="0.5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path15_stroke" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -115.5 246)" fill="#000000" fill-opacity="0.7" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path15_stroke" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -103.5 246)" fill="#000000" fill-opacity="0.8" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path15_stroke" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -91.5 246)" fill="#000000" fill-opacity="0.9" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Stairs UP south" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path18_stroke" transform="matrix(-1 -1.4802e-16 2.5656e-16 -1 605.485 808.5)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path19_stroke" transform="matrix(-1 -2.27731e-16 -0.0255309 -0.999674 605.489 859.075)" fill="#000000" fill-opacity="0.6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path18_stroke" transform="matrix(-1 -1.4802e-16 2.5656e-16 -1 605.485 846.651)" fill="#000000" fill-opacity="0.7" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path18_stroke" transform="matrix(-1 -1.4802e-16 2.5656e-16 -1 605.485 833.934)" fill="#000000" fill-opacity="0.8" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path18_stroke" transform="matrix(-1 -1.4802e-16 2.5656e-16 -1 605.485 821.217)" fill="#000000" fill-opacity="0.9" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Stairs UP south" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path20_stroke" transform="matrix(-1 -1.55678e-16 2.42476e-16 -1 555.485 808.5)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path20_stroke" transform="matrix(-1 -1.55678e-16 2.42476e-16 -1 555.485 853.128)" fill="#000000" fill-opacity="0.7" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path20_stroke" transform="matrix(-1 -1.55678e-16 2.42476e-16 -1 555.485 838.252)" fill="#000000" fill-opacity="0.8" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path20_stroke" transform="matrix(-1 -1.55678e-16 2.42476e-16 -1 555.485 823.376)" fill="#000000" fill-opacity="0.9" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Line 6" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path21_stroke" transform="matrix(-0.000693581 1 1 0.000694681 605.5 752)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 7" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path22_stroke" transform="matrix(-0.00311205 0.999995 0.999995 0.00311217 370.5 707)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 10" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path12_stroke" transform="matrix(6.12323e-17 1 -1 6.12323e-17 -7.5 707)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 9" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path23_stroke" transform="matrix(6.12323e-17 1 -1 6.12323e-17 170.5 -218)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 11" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path24_stroke" transform="matrix(0.741438 0.671022 -0.671022 0.741438 170.5 -218)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 15" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path25_stroke" transform="matrix(-0.999991 0.00430882 -3.48064e-30 -1 170.5 -218)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path26_fill" transform="translate(-54.5 -147)" fill="#DADADA" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path27_fill" transform="translate(-165.735 -276)" fill="#DADADA" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line 16" style="mix-blend-mode:normal;" figma:type="line">
+<use xlink:href="#path28_stroke" transform="translate(349.5 551)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Lifts" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="translate(-68.5 -61.8985)" fill="#DADADA" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="translate(-68.5 -11.6387)" fill="#DADADA" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Lifts" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path29_fill" transform="matrix(-0.0128865 -0.999917 0.999917 -0.0128865 -198.959 -107.215)" fill="#DADADA" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path30_fill" transform="matrix(-0.0128865 -0.999917 0.999917 -0.0128865 -160.43 -107.712)" fill="#DADADA" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 179 0L 179 151L 0 151L 0 0Z"/>
+<path id="path1_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 145.501 0L 146.001 0L 146.001 -1L 145.501 -1L 145.501 0ZM 0.5 -5.55112e-17L 145.501 -5.55112e-17L 145.501 -1L 0.5 -1L 0.5 -5.55112e-17Z"/>
+<path id="path2_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 114.5 0L 115 0L 115 -1L 114.5 -1L 114.5 0ZM 0.5 0L 114.5 0L 114.5 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path3_fill" d="M 0 0L 190 0L 190 151L 0 151L 0 0Z"/>
+<path id="path4_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 190.5 0L 191 0L 191 -1L 190.5 -1L 190.5 0ZM 0.5 0L 190.5 0L 190.5 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path5_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 173.5 0L 174 0L 174 -1L 173.5 -1L 173.5 0ZM 0.5 0L 173.5 0L 173.5 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path6_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 18.9162 0L 19.4162 0L 19.4162 -1L 18.9162 -1L 18.9162 0ZM 0.5 0L 18.9162 0L 18.9162 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path7_fill" d="M 0 0L 34 0L 34 39.7402L 0 39.7402L 0 0Z"/>
+<path id="path8_fill" d="M 12.5332 14.8184L 12.5332 36.2109L 8.2793 36.2109L 8.2793 14.8184L 0.316406 14.8184L 0.316406 11.0039L 20.5137 11.0039L 20.5137 14.8184L 12.5332 14.8184Z"/>
+<path id="path9_fill" d="M 0 0L 712 0L 712 145L 0 145L 0 0Z"/>
+<path id="path10_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 92.5 0L 93 0L 93 -1L 92.5 -1L 92.5 0ZM 0.5 0L 92.5 0L 92.5 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path11_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 72.5 0L 73 0L 73 -1L 72.5 -1L 72.5 0ZM 0.5 0L 72.5 0L 72.5 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path12_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 139.5 0L 140 0L 140 -1L 139.5 -1L 139.5 0ZM 0.5 0L 139.5 0L 139.5 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path13_fill" d="M 0 0L 162 0L 162 151L 0 151L 0 0Z"/>
+<path id="path14_fill" d="M 0 0L 162 0L 162 146L 0 146L 0 0Z"/>
+<path id="path15_stroke" d="M 6 -12L 0 -12L 0 0L 6 0L 6 -12ZM 26 0L 32 0L 32 -12L 26 -12L 26 0ZM 6 0L 26 0L 26 -12L 6 -12L 6 0Z"/>
+<path id="path16_stroke" d="M 6 -12L 0 -12L 0 0L 6 0L 6 -12ZM 26.0048 0L 32.0048 0L 32.0048 -12L 26.0048 -12L 26.0048 0ZM 6 -8.88178e-16L 26.0048 -8.88178e-16L 26.0048 -12L 6 -12L 6 -8.88178e-16Z"/>
+<path id="path17_stroke" d="M 6 -12L 0 -12L 0 0L 6 0L 6 -12ZM 26.019 0L 32.019 0L 32.019 -12L 26.019 -12L 26.019 0ZM 6 0L 26.019 0L 26.019 -12L 6 -12L 6 0Z"/>
+<path id="path18_stroke" d="M 7.5 -15L 0 -15L 0 0L 7.5 0L 7.5 -15ZM 42.4702 0L 49.9702 0L 49.9702 -15L 42.4702 -15L 42.4702 0ZM 7.5 8.88178e-16L 42.4702 8.88178e-16L 42.4702 -15L 7.5 -15L 7.5 8.88178e-16Z"/>
+<path id="path19_stroke" d="M 7.5 -15L 0 -15L 0 0L 7.5 0L 7.5 -15ZM 42.4777 0L 49.9777 0L 49.9777 -15L 42.4777 -15L 42.4777 0ZM 7.5 0L 42.4777 0L 42.4777 -15L 7.5 -15L 7.5 0Z"/>
+<path id="path20_stroke" d="M 7.5 -15L 0 -15L 0 0L 7.5 0L 7.5 -15ZM 42.0079 0L 49.5079 0L 49.5079 -15L 42.0079 -15L 42.0079 0ZM 7.5 0L 42.0079 0L 42.0079 -15L 7.5 -15L 7.5 0Z"/>
+<path id="path21_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 21.5 0L 22 0L 22 -1L 21.5 -1L 21.5 0ZM 0.5 -5.55112e-17L 21.5 -5.55112e-17L 21.5 -1L 0.5 -1L 0.5 -5.55112e-17Z"/>
+<path id="path22_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 160.499 0L 160.999 0L 160.999 -1L 160.499 -1L 160.499 0ZM 0.5 0L 160.499 0L 160.499 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path23_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 169.5 0L 170 0L 170 -1L 169.5 -1L 169.5 0ZM 0.5 0L 169.5 0L 169.5 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path24_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 240.923 0L 241.423 0L 241.423 -1L 240.923 -1L 240.923 0ZM 0.5 -5.55112e-17L 240.923 -5.55112e-17L 240.923 -1L 0.5 -1L 0.5 -5.55112e-17Z"/>
+<path id="path25_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 204.502 0L 205.002 0L 205.002 -1L 204.502 -1L 204.502 0ZM 0.5 0L 204.502 0L 204.502 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path26_fill" d="M 0 0L 81 0L 81 70L 0 70L 0 0Z"/>
+<path id="path27_fill" d="M 0 0L 81 0L 81 58L 0 58L 0 0Z"/>
+<path id="path28_stroke" d="M 0.5 -1L 0 -1L 0 0L 0.5 0L 0.5 -1ZM 523.5 0L 524 0L 524 -1L 523.5 -1L 523.5 0ZM 0.5 0L 523.5 0L 523.5 -1L 0.5 -1L 0.5 0Z"/>
+<path id="path29_fill" d="M 0 0L 34 0L 34 30.4675L 0 30.4675L 0 0Z"/>
+<path id="path30_fill" d="M 0 0L 34 0L 34 30.4675L 0 30.4675L 0 0Z"/>
+</defs>
+</svg>
