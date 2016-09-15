@@ -9,6 +9,7 @@
     "react": "15.2.1",
     "react-native": "0.31.0",
     "react-native-svg": "^4.1.1",
-    "react-native-vector-icons": "^2.0.3"
+    "react-native-vector-icons": "^2.0.3",
+    "react-svg-camera": "^1.1.1"
   }
 }
