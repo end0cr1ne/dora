@@ -23,6 +23,16 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		F72DD664DEFB4A3FA2F13313 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F668ED30B84159A7705C9E /* libRNSVG.a */; };
+		4EF994B017CF401791C44B0B /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 182FC091270C43948E71AAFB /* libRNVectorIcons.a */; };
+		5D96D45DDEEA42DF8B88B8CF /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D190DE4B53A94FE9A7769B26 /* Entypo.ttf */; };
+		B6DD4CBF0FA84B1B92F6C771 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F6F2C2E27BF432B836CCE22 /* EvilIcons.ttf */; };
+		E1B2FC7C3AC3409EA364A96A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 928EFCFE69EF4848AF0CEA8F /* FontAwesome.ttf */; };
+		C4DB1F44DCA946E6BF3ADADF /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 104B880F09674A6C8F921B23 /* Foundation.ttf */; };
+		151056FC49954079906CB938 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3961194BA03E42EFAD1C4C59 /* Ionicons.ttf */; };
+		4F8D8DE39CC140008F5480DB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4CFC1334F0645448F864C31 /* MaterialIcons.ttf */; };
+		1A4E32D0E5F04E35B5C74342 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB572ED1B1E48E2B39F68C2 /* Octicons.ttf */; };
+		763AB24C689C43EABBE533DA /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB173BA74493C80774EBF /* Zocial.ttf */; };
+		A73B4A70BEE34E0B8F3B4062 /* libRNBLE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A386E790C7F4108BD7FC908 /* libRNBLE.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +139,18 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = ../node_modules/react-native/Libraries/Text/RCTText.xcodeproj; sourceTree = "<group>"; };
 		72BC1FF2D94F4982827108D9 /* RNSVG.xcodeproj */ = {isa = PBXFileReference; name = "RNSVG.xcodeproj"; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		F4F668ED30B84159A7705C9E /* libRNSVG.a */ = {isa = PBXFileReference; name = "libRNSVG.a"; path = "libRNSVG.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		9771EF07030D4522A5F5F866 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		182FC091270C43948E71AAFB /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		D190DE4B53A94FE9A7769B26 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F6F2C2E27BF432B836CCE22 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		928EFCFE69EF4848AF0CEA8F /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		104B880F09674A6C8F921B23 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3961194BA03E42EFAD1C4C59 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4CFC1334F0645448F864C31 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9BB572ED1B1E48E2B39F68C2 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C2AB173BA74493C80774EBF /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C55FB3B270854EEFA035F633 /* RNBLE.xcodeproj */ = {isa = PBXFileReference; name = "RNBLE.xcodeproj"; path = "../node_modules/react-native-ble/RNBLE.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		7A386E790C7F4108BD7FC908 /* libRNBLE.a */ = {isa = PBXFileReference; name = "libRNBLE.a"; path = "libRNBLE.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +177,8 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				F72DD664DEFB4A3FA2F13313 /* libRNSVG.a in Frameworks */,
+				4EF994B017CF401791C44B0B /* libRNVectorIcons.a in Frameworks */,
+				A73B4A70BEE34E0B8F3B4062 /* libRNBLE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +302,8 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				72BC1FF2D94F4982827108D9 /* RNSVG.xcodeproj */,
+				9771EF07030D4522A5F5F866 /* RNVectorIcons.xcodeproj */,
+				C55FB3B270854EEFA035F633 /* RNBLE.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -297,6 +323,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DoraTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				9FB308C0AAAD4C2BAC7542B5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -309,6 +336,22 @@
 				00E356EE1AD99517003FC87E /* DoraTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB308C0AAAD4C2BAC7542B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D190DE4B53A94FE9A7769B26 /* Entypo.ttf */,
+				0F6F2C2E27BF432B836CCE22 /* EvilIcons.ttf */,
+				928EFCFE69EF4848AF0CEA8F /* FontAwesome.ttf */,
+				104B880F09674A6C8F921B23 /* Foundation.ttf */,
+				3961194BA03E42EFAD1C4C59 /* Ionicons.ttf */,
+				B4CFC1334F0645448F864C31 /* MaterialIcons.ttf */,
+				9BB572ED1B1E48E2B39F68C2 /* Octicons.ttf */,
+				9C2AB173BA74493C80774EBF /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +556,14 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				5D96D45DDEEA42DF8B88B8CF /* Entypo.ttf in Resources */,
+				B6DD4CBF0FA84B1B92F6C771 /* EvilIcons.ttf in Resources */,
+				E1B2FC7C3AC3409EA364A96A /* FontAwesome.ttf in Resources */,
+				C4DB1F44DCA946E6BF3ADADF /* Foundation.ttf in Resources */,
+				151056FC49954079906CB938 /* Ionicons.ttf in Resources */,
+				4F8D8DE39CC140008F5480DB /* MaterialIcons.ttf in Resources */,
+				1A4E32D0E5F04E35B5C74342 /* Octicons.ttf in Resources */,
+				763AB24C689C43EABBE533DA /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +644,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -610,6 +663,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Release;
@@ -624,6 +679,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)\..\node_modules\react-native-svg\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-ble",
 				);
 				INFOPLIST_FILE = "Dora/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -645,6 +702,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)\..\node_modules\react-native-svg\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-ble",
 				);
 				INFOPLIST_FILE = "Dora/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -696,6 +755,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)\..\node_modules\react-native-svg\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-ble",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -737,6 +798,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)\..\node_modules\react-native-svg\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-ble",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;

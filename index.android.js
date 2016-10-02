@@ -4,8 +4,9 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Icon from 'react-native-vector-icons/EvilIcons';
+import noble from 'react-native-ble';
 
 import {
     AppRegistry,
@@ -13,10 +14,12 @@ import {
     Text,
     View,
     DrawerLayoutAndroid,
-    WebView
+    WebView,
+    ListView,
+    TouchableHighlight
 } from 'react-native';
 
-import Svg,{
+import Svg, {
     Circle,
     Ellipse,
     G,
@@ -35,6 +38,44 @@ import Svg,{
 
 
 class Dora extends Component {
+
+// {/*constructor(props) {*/}
+//         {/*super(props);*/}
+//
+//         {/*noble.startScanning();*/}
+//         {/*noble.on('discover', (p)=>{*/}
+//             {/*console.log(p);*/}
+//             {/*this.state.ds.append({Name:p.advertisement.localName,RSSI:p.rssi});*/}
+//         {/*}).bind(this);*/}
+//
+//         {/*var ds = new ListView.DataSource({*/}
+//             {/*rowHasChanged: (r1, r2) => r1 != r2*/}
+//         {/*});*/}
+//         {/*this.state = {*/}
+//             {/*ds: [],*/}
+//             {/*dataSource: ds,*/}
+//         {/*}*/}
+//     {/*}*/}
+
+    // componentDidMount() {
+    //     this.setState({
+    //         dataSource: this.state.dataSource.cloneWithRows(this.state.ds),
+    //     })
+    // }
+    //
+    // renderRow(rowData) {
+    //     return (
+    //         <TouchableHighlight
+    //             onPress={()=> this.pressRow(rowData)}
+    //             underlayColor='#ddd'>
+    //             <View style={styles.row}>
+    //                 <Text style={{fontSize: 18}}>{rowData.Name} : {rowData.RSSI}</Text>
+    //             </View>
+    //         </TouchableHighlight>
+    //
+    //     )
+    // }
+
     render() {
         var navigationView = (
             <View style={{flex: 1, backgroundColor: '#fff'}}>
@@ -56,17 +97,21 @@ class Dora extends Component {
                     style={styles.toolbar}
                 />
                 <WebView
-                    ref={'webview'}
-                    automaticallyAdjustContentInsets={false}
-                    style={styles.webView}
-                    source={require('./7.1.html')}
-                    javaScriptEnabledAndroid={true}
-                    domStorageEnabledAndroid={true}
-                    onNavigationStateChange={this.onNavigationStateChange}
-                    onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
-                    startInLoadingState={true}
-                    scalesPageToFit={false}
+                ref={'webview'}
+                automaticallyAdjustContentInsets={false}
+                style={styles.webView}
+                source={require('./7.1.html')}
+                javaScriptEnabledAndroid={true}
+                domStorageEnabledAndroid={true}
+                onNavigationStateChange={this.onNavigationStateChange}
+                onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
+                startInLoadingState={true}
+                scalesPageToFit={false}
                 />
+                {/*<ListView*/}
+                    {/*dataSource={this.state.dataSource}*/}
+                    {/*renderRow={this.renderRow.bind(this)}>*/}
+                {/*</ListView>*/}
             </DrawerLayoutAndroid>
         );
     }
@@ -101,7 +146,7 @@ const styles = StyleSheet.create({
 
 AppRegistry.registerComponent('Dora', () => Dora);
 /*
-* <Svg height="1000" width="1000">
+ * <Svg height="1000" width="1000">
  <Circle
  cx="50"
  cy="50"
@@ -120,10 +165,10 @@ AppRegistry.registerComponent('Dora', () => Dora);
  fill="yellow"
  />
  </Svg>
-* */
+ * */
 
 /*
-* <svg width="3072" height="3675" viewBox="0 0 3072 3675" version="2">
+ * <svg width="3072" height="3675" viewBox="0 0 3072 3675" version="2">
  <g transform="matrix(3 0 0 3 618 1092)" >
  <mask id="a">
  <path d="M-206-364H818V861H-206V-364z" fill="#FFF"/>
@@ -234,4 +279,4 @@ AppRegistry.registerComponent('Dora', () => Dora);
  <path id="F" d="M0 0h34v30.468H0V0z"/>
  </defs>
  </svg>
-* */
+ * */
