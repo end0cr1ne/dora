@@ -6,11 +6,13 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react": "15.2.1",
-    "react-native": "0.31.0",
+    "react": "^15.3.1",
+    "react-native": "^0.38.0",
+    "react-native-ble": "^1.0.7",
+    "react-native-ble-manager": "^2.1.2",
+    "react-native-heading": "^1.0.0",
     "react-native-svg": "^4.1.1",
     "react-native-vector-icons": "^2.0.3",
-    "react-svg-camera": "^1.1.1",
-    "react-native-ble": "^1.0.7"
+    "react-svg-camera": "^1.1.1"
   }
 }

@@ -1,0 +1,21 @@
+.cell{
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: -4px;
+    vertical-align: top;
+    text-align: centre;
+}
+.path{
+    background-color: rgba(153, 153, 153, 0.39);
+}
+.class-room{
+    background-color: #00cc7e;
+}
+.outside{
+//border:3px solid white;
+}
+.lab{
+    background-color: #00CCFF;
+}
