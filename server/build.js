@@ -103,6 +103,6 @@ for(i of g.edges())
 
 }
 
-console.log(graph.alg.dijkstra(g,'84c1bc43-afdc-41ea-82fa-97476ecab2f2',null,function (v) {
+console.log(graph.alg.dijkstra(g,ref['lift7_new'],null,function (v) {
     return g.nodeEdges(v);
 }));
