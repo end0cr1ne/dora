@@ -1,6 +1,6 @@
 var graph = require('graphlib');
 var id=require('uuid/v4');
-var g=new graph.Graph({directed:false});
+var g=new graph.Graph({directed: false});
 
 // var ref = {
 //     lift7_new:id(),
@@ -57,7 +57,6 @@ var ref={
 
 
 for(var i in ref){
-    //console.log(i)
     g.setNode(ref[i],i);
 }
 g.setEdge(ref.p7_2,ref.p7_0);
@@ -98,12 +97,12 @@ g.setEdge(ref.p7_8,ref.p7_10);
 // g.setNode(id(),'lift');
 // g.setNode(id(),'lift');
 
-console.log(g.edges());
-
 for(i of g.edges())
 {
     console.log(g.node(i.v), g.node(i.w))
 
 }
 
-console.log(graph.alg.dijkstra(g, '4fd1aaf7-e18b-469e-a6b4-a2fb2d1813e2'));
+console.log(graph.alg.dijkstra(g,'84c1bc43-afdc-41ea-82fa-97476ecab2f2',null,function (v) {
+    return g.nodeEdges(v);
+}));
