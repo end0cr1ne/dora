@@ -70,6 +70,7 @@ g.setEdge(ref.p7_4,ref.project_lab);
 g.setEdge(ref.p7_5,ref.iedc_lab);
 g.setEdge(ref.p7_5,ref.girls_restroom);
 g.setEdge(ref.p7_5,ref.p7_4);
+g.setEdge(ref.p7_5,ref.p7_6);
 g.setEdge(ref.be_comps,ref.p7_6);
 g.setEdge(ref.te_comps,ref.p7_6);
 g.setEdge(ref.p7_6,ref.p7_7);
@@ -103,6 +104,21 @@ for(i of g.edges())
 
 }
 
-console.log(graph.alg.dijkstra(g,ref['lift7_new'],null,function (v) {
+var pathList= graph.alg.dijkstra(g,ref.lift7_new,null,function (v) {
     return g.nodeEdges(v);
-}));
+});
+
+console.log(pathList);
+
+var pred=pathList[ref.se_comps].predecessor;
+var tiles=[];
+while(pred != ref.lift7_new)
+{
+ tiles.push(g.node(pred));
+ pred=pathList[pred].predecessor;
+}
+
+console.log(tiles);
+
+
+//console.log(pathList[ref.iedc_lab].predecessor);
