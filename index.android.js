@@ -5,9 +5,11 @@
  */
 
 import React, {Component} from 'react';
-//import Icon from 'react-native-vector-icons/EvilIcons';
+//import SearchBar from 'react-native-searchbar';
 import Heading from 'react-native-heading';
 import BleManager from 'react-native-ble-manager';
+import SearchBar from 'react-native-material-design-searchbar';
+
 
 import {
     AppRegistry,
@@ -132,11 +134,11 @@ class Dora extends Component {
     pathStyle(i) {
         //console.log(i);
         var style = {
-            width: 100,
-            height: 100,
+            width: 50,
+            height: 50,
             backgroundColor: 'rgba(153, 153, 153, 0.39)',
             borderColor: 'black',
-            borderWidth: 2
+            borderWidth: 0
         };
 
         var path = [13, 11, 0, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -154,13 +156,50 @@ class Dora extends Component {
         return style
     }
 
+    handleSearchResults(results){
+        console.log(results);
+    }
+
     render() {
+        var items = [
+            1337,
+            'janeway',
+            {
+                lots: 'of',
+                different: {
+                    types: 0,
+                    data: false,
+                    that: {
+                        can: {
+                            be: {
+                                quite: {
+                                    complex: {
+                                        hidden: [ 'gold!' ],
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+            [ 4, 2, 'tree' ],
+        ];
 
         const bleList = this.state.beacon
             ? <Text style={styles.text}> Position: {this.state.beacon} </Text>
             : <Text style={styles.text}>no devices nearby</Text>;
 
         return (<View>
+            <SearchBar
+                onSearchChange={() => console.log('On Focus')}
+                height={50}
+                onFocus={() => console.log('On Focus')}
+                onBlur={() => console.log('On Blur')}
+                placeholder={'Search...'}
+                autoCorrect={false}
+                padding={5}
+                returnKeyType={'search'}
+            />
             <Image source={require('./pointer.png')}
                    style={[styles.pointer, {transform: [{rotateZ: this.state.azimuth + 'deg'}]}]}/>
             <ScrollView><ScrollView contentContainerStyle={styles.container} horizontal={true}>
@@ -171,7 +210,7 @@ class Dora extends Component {
                     <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
                     <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
                     <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
-                    <View style={styles.cell_random}><Text style={styles.text}>Boys' Restroom</Text></View>
+                    <View style={styles.cell_random}><Text style={styles.text}>Boys' Loo</Text></View>
                 </View>
                     <View style={styles.cell}>
                         <View style={styles.cell_random}><Text style={styles.text}>Lift</Text></View>
@@ -187,9 +226,9 @@ class Dora extends Component {
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
-                        <View style={styles.cell_class_room}><Text style={styles.text}>BE Computers</Text></View>
+                        <View style={styles.cell_class_room}><Text style={styles.text}>BE Comps</Text></View>
                         <View style={this.pathStyle(6)}></View>
-                        <View style={styles.cell_class_room}><Text style={styles.text}>TE Computers</Text></View>
+                        <View style={styles.cell_class_room}><Text style={styles.text}>TE Comps</Text></View>
 
                     </View>
                     <View style={styles.cell}>
@@ -231,7 +270,7 @@ class Dora extends Component {
                             <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
                             <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
                             <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
-                            <View style={styles.cell_random}><Text style={styles.text}>Girls' Restroom</Text></View>
+                            <View style={styles.cell_random}><Text style={styles.text}>Girls' Loo</Text></View>
                         </View>
                         <View style={styles.cell}>
                             <View style={styles.cell_random}><Text style={styles.text}>Lift</Text></View>
@@ -308,25 +347,25 @@ const styles = StyleSheet.create({
         right: 5
     },
     text: {
-        width: 75,
+        width: 50,
         color: 'white',
         textAlign: 'center'
     },
     cell_class_room: {
-        width: 100,
-        height: 100,
+        width: 50,
+        height: 50,
         backgroundColor: '#2aa22a',
         borderColor: 'black',
-        borderWidth: 2,
+        borderWidth: 0,
         alignItems: 'center',
         justifyContent: 'center'
     },
     cell_random: {
-        width: 100,
-        height: 100,
+        width: 50,
+        height: 50,
         backgroundColor: 'cornflowerblue',
         borderColor: 'black',
-        borderWidth: 2,
+        borderWidth: 0,
         alignItems: 'center',
         justifyContent: 'center'
     },
@@ -335,28 +374,28 @@ const styles = StyleSheet.create({
         alignItems: 'flex-start',
         flexDirection: 'row',
         width: 10000,
-        height: 100
+        height: 50
     },
     cell_outside: {
-        width: 100,
-        height: 100,
+        width: 50,
+        height: 50,
         backgroundColor: 'white'
     },
     cell_lab: {
-        width: 100,
-        height: 100,
+        width: 50,
+        height: 50,
         backgroundColor: '#00b386',
         borderColor: 'black',
-        borderWidth: 2,
+        borderWidth: 0,
         alignItems: 'center',
         justifyContent: 'center'
     },
     cell_path: {
-        width: 100,
-        height: 100,
+        width: 50,
+        height: 50,
         backgroundColor: 'rgba(153, 153, 153, 0.39)',
         borderColor: 'black',
-        borderWidth: 2
+        borderWidth: 0
     }
 });
 

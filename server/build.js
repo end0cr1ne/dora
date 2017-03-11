@@ -100,8 +100,7 @@ g.setEdge(ref.p7_8,ref.p7_10);
 
 for(i of g.edges())
 {
-    console.log(g.node(i.v), g.node(i.w))
-
+    console.log(g.node(i.v), g.node(i.w));
 }
 
 var pathList= graph.alg.dijkstra(g,ref.lift7_new,null,function (v) {
