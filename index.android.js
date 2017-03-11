@@ -34,7 +34,7 @@ class Dora extends Component {
     interval = null;
 
     constructor() {
-        super();
+        //super();
 
         this.state = {
             beacon: 1,
