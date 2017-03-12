@@ -34,7 +34,7 @@ class Dora extends Component {
     interval = null;
 
     constructor() {
-        //super();
+        super();
 
         this.state = {
             beacon: 1,
@@ -152,7 +152,7 @@ class Dora extends Component {
             5: [8, 9, 10],
             6: [11, 12, 13]
         };
-        if (zones[this.state.beacon].indexOf(i) > -1 && path.indexOf(i) > -1)style.backgroundColor = 'orangered';
+        if (zones[this.state.beacon].indexOf(i) > -1 && path.indexOf(i) > -1)style.backgroundColor = '#ff751a';
         return style
     }
 
@@ -174,14 +174,14 @@ class Dora extends Component {
                             be: {
                                 quite: {
                                     complex: {
-                                        hidden: [ 'gold!' ],
-                                    },
-                                },
-                            },
-                        },
-                    },
-                },
-            },
+                                        hidden: [ 'gold!' ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             [ 4, 2, 'tree' ],
         ];
 
@@ -207,10 +207,10 @@ class Dora extends Component {
                     <View style={styles.cell_outside}></View>
                     <View style={styles.cell_class_room}><Text style={styles.text}>BE Elex</Text></View>
                     <View style={this.pathStyle(0)}></View>
-                    <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
-                    <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
-                    <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
-                    <View style={styles.cell_random}><Text style={styles.text}>Boys' Loo</Text></View>
+                    <View style={styles.cell_lab}><Text style={styles.text}>Adv Comm Lab</Text></View>
+                    <View style={styles.cell_lab}><Text style={styles.text}>Project Lab</Text></View>
+                    <View style={styles.cell_lab}><Text style={styles.text}>IEDC Lab</Text></View>
+                    <View style={styles.cell_random}></View>
                 </View>
                     <View style={styles.cell}>
                         <View style={styles.cell_random}><Text style={styles.text}>Lift</Text></View>
@@ -219,7 +219,7 @@ class Dora extends Component {
                         <View style={this.pathStyle(3)}></View>
                         <View style={this.pathStyle(4)}></View>
                         <View style={this.pathStyle(5)}></View>
-                        <View style={styles.cell_random}></View>
+                        <View style={styles.cell_random}><Text style={styles.text}>Boys' Loo</Text></View>
                     </View>
                     <View style={styles.cell}>
                         <View style={styles.cell_outside}></View>
@@ -236,7 +236,7 @@ class Dora extends Component {
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
-                        <View style={styles.cell_lab}></View>
+                        <View style={styles.cell_lab}><Text style={styles.text}>Mac Lab</Text></View>
                         <View style={this.pathStyle(7)}></View>
                         <View style={styles.cell_class_room}><Text style={styles.text}>SE Comps</Text></View>
 
@@ -246,9 +246,9 @@ class Dora extends Component {
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
-                        <View style={styles.cell_lab}></View>
+                        <View style={styles.cell_lab}><Text style={styles.text}>CC8</Text></View>
                         <View style={this.pathStyle(8)}></View>
-                        <View style={this.pathStyle(9)}></View>
+                        <View style={this.pathStyle(9)}><Text style={styles.text}>Stairs</Text></View>
 
                     </View>
                     <View style={styles.cell}>
@@ -256,9 +256,9 @@ class Dora extends Component {
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
-                        <View style={styles.cell_lab}></View>
+                        <View style={styles.cell_lab}><Text style={styles.text}>CC7</Text></View>
                         <View style={this.pathStyle(10)}></View>
-                        <View style={styles.cell_class_room}></View>
+                        <View style={styles.cell_class_room}><Text style={styles.text}>Staff Room</Text></View>
 
                     </View>
                 </View>) : (
@@ -306,9 +306,9 @@ class Dora extends Component {
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
-                            <View style={styles.cell_lab}></View>
+                            <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
                             <View style={this.pathStyle(19)}></View>
-                            <View style={this.pathStyle(20)}></View>
+                            <View style={this.pathStyle(20)}><Text style={styles.text}>Stairs</Text></View>
 
                         </View>
                         <View style={styles.cell}>
@@ -316,9 +316,9 @@ class Dora extends Component {
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
-                            <View style={styles.cell_lab}></View>
+                            <View style={styles.cell_lab}><Text style={styles.text}>Lab</Text></View>
                             <View style={this.pathStyle(21)}></View>
-                            <View style={styles.cell_class_room}></View>
+                            <View style={styles.cell_class_room}><Text style={styles.text}>Staff Room</Text></View>
 
                         </View>
                     </View>)}
@@ -354,7 +354,7 @@ const styles = StyleSheet.create({
     cell_class_room: {
         width: 50,
         height: 50,
-        backgroundColor: '#2aa22a',
+        backgroundColor: '#138479',
         borderColor: 'black',
         borderWidth: 0,
         alignItems: 'center',
@@ -363,11 +363,10 @@ const styles = StyleSheet.create({
     cell_random: {
         width: 50,
         height: 50,
-        backgroundColor: 'cornflowerblue',
+        backgroundColor: '#00cccc',
         borderColor: 'black',
         borderWidth: 0,
-        alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent:'center'
     },
     cell: {
         flexWrap: 'wrap',
@@ -393,9 +392,11 @@ const styles = StyleSheet.create({
     cell_path: {
         width: 50,
         height: 50,
-        backgroundColor: 'rgba(153, 153, 153, 0.39)',
+        backgroundColor: '#ff9933',
         borderColor: 'black',
-        borderWidth: 0
+        borderWidth: 0,
+        justifyContent: 'center'
+
     }
 });
 

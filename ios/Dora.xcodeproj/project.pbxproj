@@ -24,6 +24,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		EF78BB915A564ECEA94F8FCB /* libBleManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F108B0287D6E4321ACDC6AD4 /* libBleManager.a */; };
 		B824C7620C8A47C78AD48974 /* libReactNativeHeading.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F737F22F4FC41EA8275FCD5 /* libReactNativeHeading.a */; };
+		12F15141F3E540E890574ACA /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4080029ADDC4E6A889B0F51 /* libRCTAnimation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,8 @@
 		F108B0287D6E4321ACDC6AD4 /* libBleManager.a */ = {isa = PBXFileReference; name = "libBleManager.a"; path = "libBleManager.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		DAEA172E36E94C4585FE3AB1 /* ReactNativeHeading.xcodeproj */ = {isa = PBXFileReference; name = "ReactNativeHeading.xcodeproj"; path = "../node_modules/react-native-heading/ReactNativeHeading.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		8F737F22F4FC41EA8275FCD5 /* libReactNativeHeading.a */ = {isa = PBXFileReference; name = "libReactNativeHeading.a"; path = "libReactNativeHeading.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		B76BD225871D4F3A8C36E514 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; name = "RCTAnimation.xcodeproj"; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D4080029ADDC4E6A889B0F51 /* libRCTAnimation.a */ = {isa = PBXFileReference; name = "libRCTAnimation.a"; path = "libRCTAnimation.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				EF78BB915A564ECEA94F8FCB /* libBleManager.a in Frameworks */,
 				B824C7620C8A47C78AD48974 /* libReactNativeHeading.a in Frameworks */,
+				12F15141F3E540E890574ACA /* libRCTAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				C7FA01AAE8754133878D9EC6 /* BleManager.xcodeproj */,
 				DAEA172E36E94C4585FE3AB1 /* ReactNativeHeading.xcodeproj */,
+				B76BD225871D4F3A8C36E514 /* RCTAnimation.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -599,6 +604,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -617,6 +623,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Release;
@@ -633,6 +640,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 					"$(SRCROOT)\..\node_modules\react-native-heading",
+					"$(SRCROOT)\..\node_modules\react-native\Libraries/**",
 				);
 				INFOPLIST_FILE = "Dora/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -657,6 +665,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 					"$(SRCROOT)\..\node_modules\react-native-heading",
+					"$(SRCROOT)\..\node_modules\react-native\Libraries/**",
 				);
 				INFOPLIST_FILE = "Dora/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -710,6 +719,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 					"$(SRCROOT)\..\node_modules\react-native-heading",
+					"$(SRCROOT)\..\node_modules\react-native\Libraries/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -752,6 +762,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios",
 					"$(SRCROOT)\..\node_modules\react-native-heading",
+					"$(SRCROOT)\..\node_modules\react-native\Libraries/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
