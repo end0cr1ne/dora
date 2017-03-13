@@ -142,7 +142,7 @@ class Dora extends Component {
         };
 
         var path = [0, 2, 3, 4, 5, 6, 7, 8, 9];
-        if (path.indexOf(i) > -1)style.backgroundColor = 'orange';
+        if (path.indexOf(i) > -1)style.backgroundColor = '#ffca28';
 
         var zones = {
             1: [0, 1, 2],
@@ -152,7 +152,7 @@ class Dora extends Component {
             5: [8, 9, 10],
             6: [11, 12, 13]
         };
-        if (zones[this.state.beacon].indexOf(i) > -1 && path.indexOf(i) > -1)style.backgroundColor = '#ff751a';
+        if (zones[this.state.beacon].indexOf(i) > -1 && path.indexOf(i) > -1)style.backgroundColor = '#ff8f00';
         return style
     }
 
@@ -387,40 +387,40 @@ class Dora extends Component {
                             <View style={styles.cell_class_room}>
                                 <Text style={styles.text}>BE IT</Text>
                             </View>
-                            <View style={this.pathStyle(11)}></View>
+                            <View style={this.pathStyle(0)}></View>
                             <View style={styles.cell_lab}>
-                                <Text style={styles.text}>Lab</Text>
+                                <Text style={styles.text}> Lab 1</Text>
                             </View>
                             <View style={styles.cell_lab}>
-                                <Text style={styles.text}>Lab</Text>
+                                <Text style={styles.text}>Lab 2</Text>
                             </View>
                             <View style={styles.cell_lab}>
-                                <Text style={styles.text}>Lab</Text>
+                                <Text style={styles.text}>Lab 3</Text>
                             </View>
+                            <View style={styles.cell_loo}></View>
+                        </View>
+                        <View style={styles.cell}>
+                            <View style={styles.cell_lift}>
+                                <Text style={styles.text}>Lift</Text>
+                            </View>
+                            <View style={this.pathStyle(1)}></View>
+                            <View style={this.pathStyle(2)}></View>
+                            <View style={this.pathStyle(3)}></View>
+                            <View style={this.pathStyle(4)}></View>
+                            <View style={this.pathStyle(5)}></View>
                             <View style={styles.cell_loo}>
                                 <Text style={styles.text}>Girls' Loo</Text>
                             </View>
                         </View>
                         <View style={styles.cell}>
-                            <View style={styles.cell_random}>
-                                <Text style={styles.text}>Lift</Text>
-                            </View>
-                            <View style={style.cell_path}></View>
-                            <View style={this.pathStyle(14)}></View>
-                            <View style={this.pathStyle(14)}></View>
-                            <View style={this.pathStyle(15)}></View>
-                            <View style={this.pathStyle(16)}></View>
-                            <View style={styles.cell_random}></View>
-                        </View>
-                        <View style={styles.cell}>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_lab}>
-                                <Text style={styles.text}>Lab</Text>
+                                <Text style={styles.text}>Lab 4</Text>
                             </View>
-                            <View style={this.pathStyle(17)}></View>
+                            <View style={this.pathStyle(6)}></View>
                             <View style={styles.cell_class_room}>
                                 <Text style={styles.text}>TE IT</Text>
                             </View>
@@ -431,8 +431,10 @@ class Dora extends Component {
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
-                            <View style={styles.cell_lab}></View>
-                            <View style={this.pathStyle(18)}></View>
+                            <View style={styles.cell_lab}>
+                                <Text style={styles.text}>Lab 5</Text>
+                            </View>
+                            <View style={this.pathStyle(7)}></View>
                             <View style={styles.cell_class_room}>
                                 <Text style={styles.text}>SE IT</Text>
                             </View>
@@ -444,10 +446,10 @@ class Dora extends Component {
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_lab}>
-                                <Text style={styles.text}>Lab</Text>
+                                <Text style={styles.text}>Lab 6</Text>
                             </View>
-                            <View style={this.pathStyle(19)}></View>
-                            <View style={this.pathStyle(20)}>
+                            <View style={this.pathStyle(8)}></View>
+                            <View style={this.pathStyle(9)}>
                                 <Text style={styles.text}>Stairs</Text>
                             </View>
 
@@ -458,14 +460,103 @@ class Dora extends Component {
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_outside}></View>
                             <View style={styles.cell_lab}>
-                                <Text style={styles.text}>Lab</Text>
+                                <Text style={styles.text}>Lab 7</Text>
                             </View>
-                            <View style={this.pathStyle(21)}></View>
+                            <View style={this.pathStyle(10)}></View>
                             <View style={styles.cell_class_room}>
                                 <Text style={styles.text}>Staff Room</Text>
                             </View>
 
                         </View>
+                        <View style={styles.cell}>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_lab}>
+                                <Text style={styles.text}>Lab 8</Text>
+                            </View>
+                            <View style={this.pathStyle(11)}></View>
+                            <View style={styles.cell_lift}>
+                                <Text style={styles.text}>Lift</Text>
+                            </View>
+
+                        </View>
+                        <View style={styles.cell}>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_lab}></View>
+                            <View style={this.pathStyle(12)}></View>
+                            <View style={styles.cell_random}>
+                                <Text style={styles.cell_loo}>Loo</Text>
+                            </View>
+                            <View style={styles.cell_loo}></View>
+                            <View style={styles.cell_lift}></View>
+                            <View style={styles.cell_lift}><Text style={styles.text}>Lift</Text></View>
+
+                        </View>
+
+                        <View style={styles.cell}>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={this.pathStyle(13)}></View>
+                            <View style={this.pathStyle(13)}></View>
+                            <View style={this.pathStyle(14)}></View>
+                            <View style={this.pathStyle(15)}></View>
+                            <View style={this.pathStyle(16)}></View>
+                            <View style={this.pathStyle(17)}></View>
+
+                        </View>
+
+                        <View style={styles.cell}>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={this.pathStyle(18)}></View>
+                            <View style={styles.cell_loo}><Text style={styles.text}>Staff Loo</Text></View>
+
+
+                        </View>
+                        <View style={styles.cell}>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={this.pathStyle(18)}></View>
+                            <View style={styles.cell_loo}><Text style={styles.text}></Text></View>
+                            <View style={this.pathStyle(18)}><Text style={styles.text}>Stairs</Text></View>
+
+                        </View>
+                        <View style={styles.cell}>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={styles.cell_outside}></View>
+                            <View style={this.pathStyle(18)}></View>
+                            <View style={this.pathStyle(18)}></View>
+                            <View style={this.pathStyle(18)}></View>
+
+
+                        </View>
+
+
                     </View>)}
 
                 </ScrollView>
@@ -500,7 +591,7 @@ const styles = StyleSheet.create({
     cell_class_room: {
         width: 50,
         height: 50,
-        backgroundColor: '#138479',
+        backgroundColor: '#4db6ac',
         borderColor: 'black',
         borderWidth: 0,
         alignItems: 'center',
@@ -509,7 +600,7 @@ const styles = StyleSheet.create({
     cell_lift: {
         width: 50,
         height: 50,
-        backgroundColor: '#9ba3b2',
+        backgroundColor: '#00695c',
         borderColor: 'black',
         borderWidth: 0,
         alignItems: 'center',
@@ -518,7 +609,7 @@ const styles = StyleSheet.create({
     cell_loo: {
         width: 50,
         height: 50,
-        backgroundColor: '#c17060',
+        backgroundColor: '#7cb342',
         borderColor: 'black',
         borderWidth: 0,
         alignItems: 'center',
@@ -547,7 +638,7 @@ const styles = StyleSheet.create({
     cell_lab: {
         width: 50,
         height: 50,
-        backgroundColor: '#00b386',
+        backgroundColor: '#00897b',
         borderColor: 'black',
         borderWidth: 0,
         alignItems: 'center',

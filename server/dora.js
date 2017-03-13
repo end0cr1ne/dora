@@ -4,7 +4,8 @@ var pathListAll = require('./pathListAll');
 var app = express();
 
 app.use('/path',function (req,res) {
-    var source=req.query.src,destination=req.query.dest;
+   // var source=req.query.src,destination=req.query.dest;
+    var source=be_comps;
     console.log(source,destination);
     var pathList=pathListAll[source];
 
