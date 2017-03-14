@@ -121,7 +121,7 @@ class Dora extends Component {
                 this.setState({
                     beacon: name,
                     max: data.rssi,
-                    floor: name < 6 ? 7 : 8
+                    floor: name < 6 ? 7 :
                     //r1: Math.pow(10,(((-22-data.rssi)+28-20*Math.log(2400))/2.2))
                 });
             }
