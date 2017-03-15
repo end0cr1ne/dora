@@ -26,7 +26,7 @@ import {
     DeviceEventEmitter,
     Platform,
     PermissionsAndroid
-    } from 'react-native';
+} from 'react-native';
 
 class Dora extends Component {
 
