@@ -16,7 +16,6 @@ import {
     Text,
     View,
     DrawerLayoutAndroid,
-    WebView,
     ScrollView,
     Image,
     NativeModules,
