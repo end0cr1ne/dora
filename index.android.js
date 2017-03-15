@@ -145,7 +145,7 @@ class Dora extends Component {
         if (path.indexOf(i) > -1)style.backgroundColor = '#ffca28';
 
         var zones = {
-            1: [0, 1, 2],
+            1: ['0', 1, 2],
             2: [3],
             3: [4, 5],
             4: [6, 7],
@@ -210,7 +210,7 @@ class Dora extends Component {
                         <View style={styles.cell_class_room}>
                             <Text style={styles.text}>BE Elex</Text>
                         </View>
-                        <View style={this.pathStyle(0)}></View>
+                        <View style={this.pathStyle('p7_0')}></View>
                         <View style={styles.cell_lab}>
                             <Text style={styles.text}>Adv Comm Lab</Text>
                         </View>
@@ -226,11 +226,11 @@ class Dora extends Component {
                         <View style={styles.cell_lift}>
                             <Text style={styles.text}>Lift</Text>
                         </View>
-                        <View style={this.pathStyle(1)}></View>
-                        <View style={this.pathStyle(2)}></View>
-                        <View style={this.pathStyle(3)}></View>
-                        <View style={this.pathStyle(4)}></View>
-                        <View style={this.pathStyle(5)}></View>
+                        <View style={this.pathStyle('p7_1')}></View>
+                        <View style={this.pathStyle('p7_2')}></View>
+                        <View style={this.pathStyle('p7_3')}></View>
+                        <View style={this.pathStyle('p7_4')}></View>
+                        <View style={this.pathStyle('p7_5')}></View>
                         <View style={styles.cell_loo}>
                             <Text style={styles.text}>Boys' Loo</Text>
                         </View>
@@ -243,7 +243,7 @@ class Dora extends Component {
                         <View style={styles.cell_class_room}>
                             <Text style={styles.text}>BE Comps</Text>
                         </View>
-                        <View style={this.pathStyle(6)}></View>
+                        <View style={this.pathStyle('p7_6')}></View>
                         <View style={styles.cell_class_room}>
                             <Text style={styles.text}>TE Comps</Text>
                         </View>
@@ -257,7 +257,7 @@ class Dora extends Component {
                         <View style={styles.cell_lab}>
                             <Text style={styles.text}>Mac Lab</Text>
                         </View>
-                        <View style={this.pathStyle(7)}></View>
+                        <View style={this.pathStyle('p7_7')}></View>
                         <View style={styles.cell_class_room}>
                             <Text style={styles.text}>SE Comps</Text>
                         </View>
@@ -271,8 +271,8 @@ class Dora extends Component {
                         <View style={styles.cell_lab}>
                             <Text style={styles.text}>CC8</Text>
                         </View>
-                        <View style={this.pathStyle(8)}></View>
-                        <View style={this.pathStyle(9)}>
+                        <View style={this.pathStyle('p7_8')}></View>
+                        <View style={this.pathStyle('p7_9')}>
                             <Text style={styles.text}>Stairs</Text>
                         </View>
 
@@ -285,7 +285,7 @@ class Dora extends Component {
                         <View style={styles.cell_lab}>
                             <Text style={styles.text}>CC7</Text>
                         </View>
-                        <View style={this.pathStyle(10)}></View>
+                        <View style={this.pathStyle('p7_10')}></View>
                         <View style={styles.cell_class_room}>
                             <Text style={styles.text}>Staff Room</Text>
                         </View>
@@ -299,7 +299,7 @@ class Dora extends Component {
                         <View style={styles.cell_lab}>
                             <Text style={styles.text}>CC8</Text>
                         </View>
-                        <View style={this.pathStyle(11)}></View>
+                        <View style={this.pathStyle('p7_11')}></View>
                         <View style={styles.cell_lift}>
                             <Text style={styles.text}>Lift</Text>
                         </View>
@@ -311,7 +311,7 @@ class Dora extends Component {
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_lab}></View>
-                        <View style={this.pathStyle(12)}></View>
+                        <View style={this.pathStyle('p7_12')}></View>
                         <View style={styles.cell_random}>
                             <Text style={styles.cell_loo}>Loo</Text>
                         </View>
@@ -326,10 +326,10 @@ class Dora extends Component {
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
                         <View style={styles.cell_outside}></View>
-                        <View style={this.pathStyle(13)}></View>
-                        <View style={this.pathStyle(13)}></View>
-                        <View style={this.pathStyle(14)}></View>
-                        <View style={this.pathStyle(15)}></View>
+                        <View style={this.pathStyle('p7_13')}></View>
+                        <View style={this.pathStyle('p7_14')}></View>
+                        <View style={this.pathStyle('p7_15')}></View>
+                        <View style={this.pathStyle('p7_16')}></View>
                         <View style={this.pathStyle(16)}></View>
                         <View style={this.pathStyle(17)}></View>
 
