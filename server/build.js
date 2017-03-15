@@ -285,7 +285,7 @@ g.setEdge(ref.p7_23, ref8.p8_23); //Linking 7th and 8th floors via back stairs
 //    console.log(g.node(i.v), g.node(i.w))
 //
 //}
-var source = ref.be_elex;
+var source = ref.lift7_old;
 //var pathListAll = graph.alg.dijkstraAll(g,  null, function (v) {
 //    return g.nodeEdges(v);
 //});
@@ -297,7 +297,7 @@ var source = ref.be_elex;
 var pathList = graph.alg.dijkstra(g, source, null, function (v) {
     return g.nodeEdges(v)
 });
-var pred = pathList[ref8.middle8_restroom].predecessor;
+var pred = pathList[ref8.staff_restroom].predecessor;
 var tiles = [];
 while (pred != source) {
     tiles.push(g.node(pred));

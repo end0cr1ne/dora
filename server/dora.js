@@ -1,7 +1,7 @@
 var express = require('express');
 var g = require('graphlib');
 
-var pathListAll = require('./pathListAll');
+var pathListAll = require('./PathListAll');
 var app = express();
 
 app.use('/path', function (req, res) {
@@ -24,7 +24,7 @@ app.use('/path', function (req, res) {
 
 app.use('/search', function (req, res) {
     var query = req.query.q;
-    console.log(query)
+    console.log(query);
 
     var result = [], indices = [];
     var arr = [
@@ -37,7 +37,7 @@ app.use('/search', function (req, res) {
         "p7_21", "p7_22", "p7_23", "p7_23", "p7_24", "p7_25", "p7_26"];
 
     for (var i = 0; i < arr.length; i++) {
-        console.log(arr[i].indexOf(query))
+        console.log(arr[i].indexOf(query));
         if (arr[i].indexOf(query) == -1) {
             indices[i] = 100;
         } else {
@@ -63,6 +63,6 @@ app.use('/', function (req, res) {
     res.send(pathListAll);
 });
 
-app.listen(3000, function (err) {
+app.listen(process.env.PORT || 3000, function (err) {
     console.log('start');
 });
