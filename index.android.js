@@ -5,11 +5,10 @@
  */
 
 import React, {Component} from 'react';
-//import SearchBar from 'react-native-searchbar';
+import SearchBar from 'react-native-searchbar';
 import Heading from 'react-native-heading';
 import BleManager from 'react-native-ble-manager';
-import SearchBar from 'react-native-material-design-searchbar';
-
+//import SearchBar from 'react-native-material-design-searchbar';
 
 import {
     AppRegistry,
@@ -17,7 +16,6 @@ import {
     Text,
     View,
     DrawerLayoutAndroid,
-    WebView,
     ScrollView,
     Image,
     NativeModules,
@@ -85,6 +83,10 @@ class Dora extends Component {
                 });
             }, 100);
 
+            var url = new URL('http://bluenavy.herokuapp.com/path'), params = {src:'335f7b63-8c95-4e4c-87ad-dae5d493d5ec',dest:'82aa8eb8-732d-4488-92b5-ef999343315e'};
+            Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
+            console.log(url);
+            fetch(url.href).then(data=>{return data.json()}).then(data=>console.log(data)).catch(err=>console.log(err));
         } catch (e) {
             console.log(e);
         }
@@ -160,6 +162,13 @@ class Dora extends Component {
         console.log(results);
     }
 
+    handleSearch(q) {
+        var url = new URL('http://bluenavy.herokuapp.com/search'), params = {q:q};
+        Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
+        console.log(url);
+        fetch(url.href).then(data=>{return data.json()}).then(data=>console.log(data)).catch(err=>console.log(err));
+    }
+
     render() {
         var items = [
             1337,
@@ -191,14 +200,10 @@ class Dora extends Component {
 
         return (<View>
             <SearchBar
-                onSearchChange={() => console.log('On Focus')}
-                height={50}
-                onFocus={() => console.log('On Focus')}
-                onBlur={() => console.log('On Blur')}
-                placeholder={'Search...'}
-                autoCorrect={false}
-                padding={5}
-                returnKeyType={'search'}
+                ref='searchBar'
+                handleSearch={this.handleSearch}
+                handleResults={this.handleSearchResults}
+                showOnLoad
             />
             <Image source={require('./pointer.png')}
                 style={[styles.pointer, {transform: [{rotateZ: this.state.azimuth + 'deg'}]}]}/>
