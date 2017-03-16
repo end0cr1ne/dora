@@ -103,7 +103,6 @@ var ref8 = {
     p8_20: '4a6edd30-f3e5-495b-8375-69f0a5dfid62',
     p8_21: '617a8eib-a52e-4ce7-a721-e3if30a7icbb',
     p8_22: 'f9171eid-5i06-45e1-8i32-1eac5e39e152',
-    p8_23: '8b7c9ic9-8980-429f-9idc-62e72i18d40d',
     p8_23: '0ii5c784-9i80-4129-88a5-4di6ff16cdf9',
     p8_24: 'e7c9ci6b-3i8c-4ffc-aid9-b8ie56da6c91',
     p8_25: '13e0ei64-aie4-4544-83b8-cd6i425d6878',
@@ -153,11 +152,10 @@ var ref = {
     p7_17: 'fv933333-950e-4423-be4a-e450c3fc6c37',
     p7_18: '95e9ii74-df92-463e-a9eb-ca4fb39dc4a2',
     p7_19: '43157700-f57c-4e1d-a553-e807eb0f8e8d',
-    p7_20: '4a6edd30-f3e5-495b-8075-6ffea5d8ed62',
+    p7_20: '4a6edd30-f3e5-495b-8075-6p0e45d8ed62',
     p7_21: '617a8e4b-a52e-4ce7-a721-e37f30a76cbb',
     p7_22: 'f9171e1d-5506-45e1-8b32-1eac5e39oi52',
-    p7_23: '8b7c97c9-8980-429f-9adc-62e72a18d40d',
-    p7_23: '0245c784-9e80-4129-88a5-4d56ff16cdf9',
+    p7_23: '8b7c97c9-8980-429f-9adc-62e7ia18d40d',
     p7_24: 'e7c9cf6b-3a8c-4ffc-a0d9-b89e56da6c91',
     p7_25: '13e0e064-a0e4-4544-83b8-cd6f425d6878',
     p7_26: '3b985f04-b531-47ea-8636-315bba6ca075'
@@ -285,7 +283,7 @@ g.setEdge(ref.p7_23, ref8.p8_23); //Linking 7th and 8th floors via back stairs
 //    console.log(g.node(i.v), g.node(i.w))
 //
 //}
-var source = ref.be_elex;
+var source = ref.lift7_old;
 //var pathListAll = graph.alg.dijkstraAll(g,  null, function (v) {
 //    return g.nodeEdges(v);
 //});
@@ -297,7 +295,7 @@ var source = ref.be_elex;
 var pathList = graph.alg.dijkstra(g, source, null, function (v) {
     return g.nodeEdges(v)
 });
-var pred = pathList[ref8.middle8_restroom].predecessor;
+var pred = pathList[ref8.staff_restroom].predecessor;
 var tiles = [];
 while (pred != source) {
     tiles.push(g.node(pred));
