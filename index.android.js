@@ -654,7 +654,7 @@ const styles = StyleSheet.create({
     cell_path: {
         width: 50,
         height: 50,
-        backgroundColor: '#ff9933',
+        backgroundColor: 'rgba(153, 153, 153, 0.39)',
         borderColor: 'black',
         borderWidth: 0,
         justifyContent: 'center'
