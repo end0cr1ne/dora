@@ -147,12 +147,12 @@ class Dora extends Component {
         if (path.indexOf(i) > -1)style.backgroundColor = '#ffca28';
 
         var zones = {
-            1: ['0', 1, 2],
-            2: [3],
-            3: [4, 5],
-            4: [6, 7],
-            5: [8, 9, 10],
-            6: [11, 12, 13]
+            1: ['p7_0', 'p7_1', 'p7_2'],
+            2: ['p7_3'],
+            3: ['p7_4','p7_5'],
+            4: ['p7_6', 'p7_7'],
+            5: ['p7_8', 'p7_9', 'p7_10'],
+            6: ['p7_11', 'p7_12', 'p7_13']
         };
         if (zones[this.state.beacon].indexOf(i) > -1 && path.indexOf(i) > -1)style.backgroundColor = '#ff8f00';
         return style
@@ -191,7 +191,7 @@ class Dora extends Component {
                     }
                 }
             }
-                [4, 2, 'tree'],
+                [4, 2, 'tree']
         ];
 
         const bleList = this.state.beacon
