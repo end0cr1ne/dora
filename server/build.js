@@ -79,7 +79,7 @@ var ref8 = {
     it_lab7: '174c5c1b-2f11-4c69-ad47-b07a5c4fded9',
     te_it: '4534f76f-a6a9-45b2-9429-e7ff10bc19f8',
     se_it: '4c13c5f4-7dfa-47a9-8527-5e269de71029',
-    staff_room: 'f5b5e14b-42a1-4917-b49d-ed946f5eb55c',
+    staff_room8: 'f5b5e14b-42a1-4917-b49d-ed946f5eb55c',
     p8_0: '9b48e414-5505-4cbc-b2ee-e3349d41ab85',
     p8_1: '463bbf3a-22f3-4598-a453-335eaf41a1c2',
     p8_2: 'cc11acba-dea5-4ad7-93f3-7754dfdea15d',
@@ -126,12 +126,12 @@ var ref = {
     advanced_communication_lab: '318e9f9c-8945-48b6-98aa-f5bf53699d09',
     iedc_lab: '82aa8eb8-732d-4488-92b5-ef999343315e',
     girls_restroom: '7e9028fb-1dc5-43b1-8007-8fa8599ef74a',
-    middle_restroom: 'b11107fb-133f-4532-a3d0-32a28b63c6f5',
-    staff_restroom: '916cc715-4b16-45b8-ba2d-83d7cde9525e',
+    middle7_restroom: 'b11107fb-133f-4532-a3d0-32a28b63c6f5',
+    staff_restroom7: '916cc715-4b16-45b8-ba2d-83d7cde9525e',
     be_comps: '335f7b63-8c95-4e4c-87ad-dae5d493d5ec',
     te_comps: 'e3e77d28-7922-4a6f-88b3-0a99b79b9b5e',
     se_comps: '02fe554a-81de-48a0-af26-679f44e810e3',
-    staff_room: '6c93fb16-812d-4819-9d0e-5e4c30e5b878',
+    staff_room7: '6c93fb16-812d-4819-9d0e-5e4c30e5b878',
     p7_0: '4fd1aaf7-e18b-469e-a6b4-a2fb2d1813e2',
     p7_1: '4fd1aaf7-e18b-469e-a6b4-a2fb2d1815e1',
     p7_2: 'f6764e24-98e7-4084-b7c8-65158f05c95c',
@@ -166,96 +166,96 @@ var ref = {
 
 
 for (var i in ref) {
-    g.setNode(ref[i], i);
+    g.setNode(i, i);
 }
 
 for (var i in ref8) {
-    g.setNode(ref8[i], i);
+    g.setNode(i, i);
 }
-g.setEdge(ref8.p8_0, ref8.p8_2);
-g.setEdge(ref8.p8_1, ref8.p8_2);
-g.setEdge(ref8.p8_2, ref8.p8_3);
-g.setEdge(ref8.p8_3, ref8.p8_4);
-g.setEdge(ref8.p8_3, ref8.it_lab1);
-g.setEdge(ref8.p8_4, ref8.it_lab2);
-g.setEdge(ref8.p8_5, ref8.it_lab3);
-g.setEdge(ref8.p8_4, ref8.p8_5);
-g.setEdge(ref8.p8_5, ref8.p8_6);
-g.setEdge(ref8.p8_6, ref8.te_it);
-g.setEdge(ref8.p8_6, ref8.it_lab4);
-g.setEdge(ref8.p8_7, ref8.it_lab5);
-g.setEdge(ref8.p8_8, ref8.it_lab6);
-g.setEdge(ref8.p8_10, ref8.it_lab7);
-g.setEdge(ref8.p8_6, ref8.p8_7);
-g.setEdge(ref8.p8_7, ref8.se_it);
-g.setEdge(ref8.p8_7, ref8.p8_8);
-g.setEdge(ref8.p8_8, ref8.p8_9);
-g.setEdge(ref8.p8_9, ref.p7_9); // Linking 7th and 8th floor via middle stairs
-g.setEdge(ref8.p8_8, ref8.p8_10);
-g.setEdge(ref8.p8_10, ref8.staff_room);
-g.setEdge(ref8.be_it, ref8.p8_0);
-g.setEdge(ref8.p8_10, ref8.it_lab7);
-g.setEdge(ref8.p8_10, ref8.p8_11);
-g.setEdge(ref8.p8_11, ref8.lift8_staff);
-g.setEdge(ref8.p8_11, ref8.p8_12);
-g.setEdge(ref8.p8_12, ref8.middle8_restroom);
-g.setEdge(ref8.p8_12, ref8.p8_13);
-g.setEdge(ref8.p8_13, ref8.p8_14);
-g.setEdge(ref8.p8_14, ref8.p8_15);
-g.setEdge(ref8.p8_15, ref8.p8_16);
-g.setEdge(ref8.p8_16, ref8.p8_17);
-g.setEdge(ref8.p8_17, ref8.lift8_old);
-g.setEdge(ref8.p8_16, ref8.p8_18);
-g.setEdge(ref8.p8_18, ref8.staff_restroom);
-g.setEdge(ref8.p8_18, ref8.p8_19);
-g.setEdge(ref8.p8_19, ref8.p8_20);
-g.setEdge(ref8.p8_20, ref8.p8_21);
-g.setEdge(ref8.p8_21, ref8.p8_22);
-g.setEdge(ref8.p8_22, ref8.p8_23);
+g.setEdge('p8_0', 'p8_2');
+g.setEdge('p8_1', 'p8_2');
+g.setEdge('p8_2', 'p8_3');
+g.setEdge('p8_3', 'p8_4');
+g.setEdge('p8_3', 'it_lab1');
+g.setEdge('p8_4', 'it_lab2');
+g.setEdge('p8_5', 'it_lab3');
+g.setEdge('p8_4', 'p8_5');
+g.setEdge('p8_5', 'p8_6');
+g.setEdge('p8_6', 'te_it');
+g.setEdge('p8_6', 'it_lab4');
+g.setEdge('p8_7', 'it_lab5');
+g.setEdge('p8_8', 'it_lab6');
+g.setEdge('p8_10', 'it_lab7');
+g.setEdge('p8_6', 'p8_7');
+g.setEdge('p8_7', 'se_it');
+g.setEdge('p8_7', 'p8_8');
+g.setEdge('p8_8', 'p8_9');
+g.setEdge('p8_9', 'p7_9'); // Linking 7th and 8th floor via middle stairs
+g.setEdge('p8_8', 'p8_10');
+g.setEdge('p8_10', 'staff_room');
+g.setEdge('be_it', 'p8_0');
+g.setEdge('p8_10', 'it_lab7');
+g.setEdge('p8_10', 'p8_11');
+g.setEdge('p8_11', 'lift8_staff');
+g.setEdge('p8_11', 'p8_12');
+g.setEdge('p8_12', 'middle8_restroom');
+g.setEdge('p8_12', 'p8_13');
+g.setEdge('p8_13', 'p8_14');
+g.setEdge('p8_14', 'p8_15');
+g.setEdge('p8_15', 'p8_16');
+g.setEdge('p8_16', 'p8_17');
+g.setEdge('p8_17', 'lift8_old');
+g.setEdge('p8_16', 'p8_18');
+g.setEdge('p8_18', 'staff_restroom');
+g.setEdge('p8_18', 'p8_19');
+g.setEdge('p8_19', 'p8_20');
+g.setEdge('p8_20', 'p8_21');
+g.setEdge('p8_21', 'p8_22');
+g.setEdge('p8_22', 'p8_23');
 //7th floor Edges
-g.setEdge(ref.p7_1, ref8.p8_1); //Linking via new lift
-g.setEdge(ref.p7_0, ref8.p8_0); //Linking 7th to 8th floor via stairs
-g.setEdge(ref.p7_2, ref.p7_0);
-g.setEdge(ref.p7_0, ref.be_elex);
-g.setEdge(ref.lift7_new, ref.p7_1);
-g.setEdge(ref.p7_2, ref.p7_1);
-g.setEdge(ref.p7_3, ref.p7_2);
-g.setEdge(ref.p7_3, ref.advanced_communication_lab);
-g.setEdge(ref.p7_4, ref.p7_3);
-g.setEdge(ref.p7_4, ref.project_lab);
-g.setEdge(ref.p7_5, ref.iedc_lab);
-g.setEdge(ref.p7_5, ref.girls_restroom);
-g.setEdge(ref.p7_5, ref.p7_4);
-g.setEdge(ref.p7_5, ref.p7_6);
-g.setEdge(ref.be_comps, ref.p7_6);
-g.setEdge(ref.te_comps, ref.p7_6);
-g.setEdge(ref.p7_6, ref.p7_7);
-g.setEdge(ref.p7_7, ref.se_comps);
-g.setEdge(ref.p7_7, ref.p7_8);
-g.setEdge(ref.p7_7, ref.mac_lab);
-g.setEdge(ref.p7_8, ref.cc8);
-g.setEdge(ref.p7_8, ref.p7_9);
-g.setEdge(ref.p7_8, ref.p7_10);
-g.setEdge(ref.p7_10, ref.staff_room);
-g.setEdge(ref.p7_10, ref.cc7);
-g.setEdge(ref.p7_10, ref.p7_11);
-g.setEdge(ref.p7_11, ref.lift7_staff);
-g.setEdge(ref.p7_11, ref.p7_12);
-g.setEdge(ref.p7_12, ref.middle_restroom);
-g.setEdge(ref.p7_12, ref.p7_13);
-g.setEdge(ref.p7_13, ref.p7_14);
-g.setEdge(ref.p7_14, ref.p7_15);
-g.setEdge(ref.p7_15, ref.p7_16);
-g.setEdge(ref.p7_16, ref.p7_17);
-g.setEdge(ref.p7_17, ref.lift7_old);
-g.setEdge(ref.p7_16, ref.p7_18);
-g.setEdge(ref.p7_18, ref.staff_restroom);
-g.setEdge(ref.p7_18, ref.p7_19);
-g.setEdge(ref.p7_19, ref.p7_20);
-g.setEdge(ref.p7_20, ref.p7_21);
-g.setEdge(ref.p7_21, ref.p7_22);
-g.setEdge(ref.p7_22, ref.p7_23);
-g.setEdge(ref.p7_23, ref8.p8_23); //Linking 7th and 8th floors via back stairs
+g.setEdge('p7_1', 'p8_1'); //Linking via new lift
+g.setEdge('p7_0', 'p8_0'); //Linking 7th to 8th floor via stairs
+g.setEdge('p7_2', 'p7_0');
+g.setEdge('p7_0', 'be_elex');
+g.setEdge('lift7_new', 'p7_1');
+g.setEdge('p7_2', 'p7_1');
+g.setEdge('p7_3', 'p7_2');
+g.setEdge('p7_3', 'advanced_communication_lab');
+g.setEdge('p7_4', 'p7_3');
+g.setEdge('p7_4', 'project_lab');
+g.setEdge('p7_5', 'iedc_lab');
+g.setEdge('p7_5', 'girls_restroom');
+g.setEdge('p7_5', 'p7_4');
+g.setEdge('p7_5', 'p7_6');
+g.setEdge('be_comps', 'p7_6');
+g.setEdge('te_comps', 'p7_6');
+g.setEdge('p7_6', 'p7_7');
+g.setEdge('p7_7', 'se_comps');
+g.setEdge('p7_7', 'p7_8');
+g.setEdge('p7_7', 'mac_lab');
+g.setEdge('p7_8', 'cc8');
+g.setEdge('p7_8', 'p7_9');
+g.setEdge('p7_8', 'p7_10');
+g.setEdge('p7_10', 'staff_room');
+g.setEdge('p7_10', 'cc7');
+g.setEdge('p7_10', 'p7_11');
+g.setEdge('p7_11', 'lift7_staff');
+g.setEdge('p7_11', 'p7_12');
+g.setEdge('p7_12', 'middle_restroom');
+g.setEdge('p7_12', 'p7_13');
+g.setEdge('p7_13', 'p7_14');
+g.setEdge('p7_14', 'p7_15');
+g.setEdge('p7_15', 'p7_16');
+g.setEdge('p7_16', 'p7_17');
+g.setEdge('p7_17', 'lift7_old');
+g.setEdge('p7_16', 'p7_18');
+g.setEdge('p7_18', 'staff_restroom');
+g.setEdge('p7_18', 'p7_19');
+g.setEdge('p7_19', 'p7_20');
+g.setEdge('p7_20', 'p7_21');
+g.setEdge('p7_21', 'p7_22');
+g.setEdge('p7_22', 'p7_23');
+g.setEdge('p7_23', 'p8_23'); //Linking 7th and 8th floors via back stairs
 
 
 // }.
@@ -283,19 +283,19 @@ g.setEdge(ref.p7_23, ref8.p8_23); //Linking 7th and 8th floors via back stairs
 //    console.log(g.node(i.v), g.node(i.w))
 //
 //}
-var source = ref.lift7_old;
-//var pathListAll = graph.alg.dijkstraAll(g,  null, function (v) {
-//    return g.nodeEdges(v);
-//});
+var source = 'lift7_old';
+var pathListAll = graph.alg.dijkstraAll(g,  null, function (v) {
+   return g.nodeEdges(v);
+});
 //
-//fs.writeFileSync('PathListAll.js', JSON.stringify(pathListAll));
+fs.writeFileSync('PathListAll.js', JSON.stringify(pathListAll));
 //var pathList = pathListAll[source];
 //console.log(pathList);
 
 var pathList = graph.alg.dijkstra(g, source, null, function (v) {
     return g.nodeEdges(v)
 });
-var pred = pathList[ref8.staff_restroom].predecessor;
+var pred = pathList['te_it'].predecessor;
 var tiles = [];
 while (pred != source) {
     tiles.push(g.node(pred));
