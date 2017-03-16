@@ -15,6 +15,7 @@ import {
     StyleSheet,
     Text,
     View,
+    ListView,
     DrawerLayoutAndroid,
     ScrollView,
     Image,
@@ -207,6 +208,12 @@ class Dora extends Component {
             />
             <Image source={require('./pointer.png')}
                 style={[styles.pointer, {transform: [{rotateZ: this.state.azimuth + 'deg'}]}]}/>
+            <ListView
+                //style={styles.container}
+                dataSource={this.state.path}
+                renderRow={(data) => <View><Text>ABC</Text></View>}
+
+            />
             <ScrollView>
                 <ScrollView contentContainerStyle={styles.container} horizontal={true}>
                 {this.state.floor == 7 ? (<View>
