@@ -143,7 +143,7 @@ class Dora extends Component {
             borderWidth: 0
         };
 
-        var path = [0, 2, 3, 4, 5, 6, 7, 8, 9];
+        var path = ['p7_0', 2, 3, 4, 5, 6, 7, 8, 9];
         if (path.indexOf(i) > -1)style.backgroundColor = '#ffca28';
 
         var zones = {
